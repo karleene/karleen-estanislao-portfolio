@@ -7,18 +7,38 @@ header {
 
 .burgerMenu {
     display: none;
+    list-style: none;
+    position: absolute;
+    left: -50px;
     i {
         font-size: 1.8rem;
         color: $white;
     }
 }
 
+.none {
+    display: none;
+}
+
+nav {
+    position: relative;
+    h3 {
+        font-size: 1.5rem;
+        color: $white;
+        text-align: center;
+    }
+}
+
 .navigation {
-    padding-top: 20px;
+    list-style-type: none;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    padding-top: 20px;
     a {
         margin: 0 20px;
+        transition: 0.5s
     }
     a:hover,
     a:focus {
@@ -38,6 +58,7 @@ h1 {
         font-size: 2rem;
         color: $peach;
         margin: 0 15px;
+        transition: 0.5s
     }
     i:hover,
     i:focus {
@@ -48,7 +69,7 @@ h1 {
 
 .about {
     background-color: $lightCyan;
-    margin: -1.7rem;
+    margin: -1.7rem 0;
 }
 
 .profile {
@@ -60,6 +81,7 @@ h1 {
             font-size: 1.2rem;
             color: $gray;
             text-decoration: underline;
+            transition: 0.5s
         }
         a:hover,
         a:focus {

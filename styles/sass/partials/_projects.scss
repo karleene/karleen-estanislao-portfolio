@@ -1,3 +1,63 @@
 .projects {
     background-color: $lightCyan;
+    margin: -1.7rem 0;
 }
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    img {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+.projectInfo {
+    a {
+        font-size: 1.2rem;
+        color: $gray;
+        text-decoration: underline;
+        transition: 0.5s
+    }
+        
+    a:hover,
+    a:focus {
+        color: $peach;
+        cursor: pointer;
+    }
+    button {
+        font-family: $bodyFont;
+        background-color: $peach;
+        color: $gray;
+        border-radius: 5px;
+        width: 100px;
+        height: 40px;
+    }
+    button:hover,
+    button:focus {
+        color: $white;
+        cursor: pointer;
+    }
+}
+
+.projectA, .projectB, .projectC {
+    display: flex;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: $white;
+    opacity: 0.8;
+}
+
+.projectA, .projectC {
+    padding-left: 100px;
+}
+
+.projectB {
+    .projectInfo {
+        align-self: flex-end;
+        text-align: end;
+    }
+}
+

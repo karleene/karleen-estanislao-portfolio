@@ -2,9 +2,16 @@
 
 .contact {
     background-color: $darkBlue;
+    margin: -1.7rem 0;
 }
 
-.footer {
+footer {
     background-color: $gray;
+    margin: -1.7rem 0;
+    p {
+        color: $white;
+        font-size: 0.8rem;
+        text-align: center;
+    }
 }
 

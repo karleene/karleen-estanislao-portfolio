@@ -246,7 +246,7 @@ h2 {
   font-family: "Pacifico", cursive;
   font-size: 2rem;
   color: #EEAF98;
-  padding: 20px 0;
+  padding: 50px 0;
 }
 
 h2:hover,
@@ -259,9 +259,9 @@ h2:focus {
 
 h3 {
   font-family: "Nunito", sans-serif;
-  font-size: 1.5rem;
-  color: #ebebf1;
-  text-align: center;
+  font-size: 1.2rem;
+  color: #5169BD;
+  text-transform: uppercase;
 }
 
 h4 {
@@ -330,23 +330,49 @@ header {
 
 .burgerMenu {
   display: none;
+  list-style: none;
+  position: absolute;
+  left: -50px;
 }
 .burgerMenu i {
   font-size: 1.8rem;
   color: #ebebf1;
 }
 
+.none {
+  display: none;
+}
+
+nav {
+  position: relative;
+}
+nav h3 {
+  font-size: 1.5rem;
+  color: #ebebf1;
+  text-align: center;
+}
+
 .navigation {
-  padding-top: 20px;
+  list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
 }
 .navigation a {
   margin: 0 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .navigation a:hover,
 .navigation a:focus {
@@ -370,6 +396,8 @@ h1 {
   font-size: 2rem;
   color: #EEAF98;
   margin: 0 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .socialIcons i:hover,
 .socialIcons i:focus {
@@ -379,7 +407,7 @@ h1 {
 
 .about {
   background-color: #E0FFFF;
-  margin: -1.7rem;
+  margin: -1.7rem 0;
 }
 
 .profile {
@@ -395,6 +423,8 @@ h1 {
   font-size: 1.2rem;
   color: #424B6D;
   text-decoration: underline;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .profile p a:hover,
 .profile p a:focus {
@@ -412,14 +442,119 @@ img {
   background-color: #5169BD;
 }
 
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+.icons li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px;
+}
+
 .projects {
   background-color: #E0FFFF;
+  margin: -1.7rem 0;
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 100px;
+}
+.projects img {
+  width: 350px;
+  height: 250px;
+}
+
+.projectInfo a {
+  font-size: 1.2rem;
+  color: #424B6D;
+  text-decoration: underline;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.projectInfo a:hover,
+.projectInfo a:focus {
+  color: #EEAF98;
+  cursor: pointer;
+}
+.projectInfo button {
+  font-family: "Nunito", sans-serif;
+  background-color: #EEAF98;
+  color: #424B6D;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+}
+.projectInfo button:hover,
+.projectInfo button:focus {
+  color: #ebebf1;
+  cursor: pointer;
+}
+
+.projectA, .projectB, .projectC {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: #ebebf1;
+  opacity: 0.8;
+}
+
+.projectA, .projectC {
+  padding-left: 100px;
+}
+
+.projectB .projectInfo {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  text-align: end;
 }
 
 .contact {
   background-color: #5169BD;
+  margin: -1.7rem 0;
 }
 
-.footer {
+footer {
   background-color: #424B6D;
+  margin: -1.7rem 0;
 }
+footer p {
+  color: #ebebf1;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* Portrait tablet and small desktops */
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  .burgerMenu {
+    display: block;
+  }
+
+  .navigation {
+    display: none;
+  }
+}
+/* Landscape phones and down */

@@ -28,18 +28,26 @@
     <header>
         <div class="wrapper">
             <nav>
-                <ul class="navigation">
+                <ul class="navigation" id="navigation">
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-    
+
                 <div class="burgerMenu" id="burgerMenu">
-                    <i class="fa-solid fa-bars"></i>
-                    <!-- 'fa-xmark' -->
+                    <i class="fa-solid fa-bars" id="bars"></i>
+                    <i class="fa-solid fa-xmark none" id="xmark"></i>
                 </div>
+    
+                <ul class="hamburgerMenu none" id="hamburgerMenu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
 
                 <h1>Karleen Estanislao</h1>
                 <h3>Front-End Web Developer</h3>
@@ -62,7 +70,7 @@
 
                 <div class="profile">
                     <img src="./assets/karleene.jpg" alt="profile headshot">
-                    <p>Hello! I'm Karleen, a pharmacy assistant turned front-end web developer based in Winnipeg, Manitoba. I recently graduated from Juno College of Technology (cohort 41). I also graduated from University of Winnipeg with a bachelor's degree in Business Administration. In my spare time, I'm usually on discord with my friends hanging out. I also play Valorant with them, I'm not good, but you can check out some of my clips <a href="https://www.instagram.com/skinzke/">here</a>.</p>
+                    <p>Hello! I'm Karleen, a pharmacy assistant turned front-end web developer based in Winnipeg, Manitoba. I recently graduated from Juno College of Technology (cohort 41). I also graduated from University of Winnipeg with a bachelor's degree in Business Administration. In my spare time, I'm usually on discord with my friends, hanging out or playing Valorant. I'm not good at the game, but you can check out some of my clips <a href="https://www.instagram.com/skinzke/">here</a>. I also like to travel and powerlift sometimes.</p>
                 </div>
             </div>
         </section>
@@ -79,10 +87,11 @@
                 <li><i class="devicon-firebase-plain"></i><h4>firebase</h4></li>
                 <li><i class="fa-brands fa-git-alt"></i><h4>git</h4></li>
                 <li><i class="fa-brands fa-github-square"></i><h4>github</h4></li>
-                <li><i class="fa-solid fa-laptop-mobile"></i><h4>responsive design</h4></li>
+                <li><i class="fa-solid fa-mobile-screen"></i><h4>responsive design</h4></li>
+                <!-- <i class="fa-solid fa-laptop-mobile"></i> -->
                 <li><i class="fa-solid fa-universal-access"></i><h4>accessibility</h4></li>
                 <li><i class="fa-solid fa-arrows-left-right"></i></i><h4>rest apis</h4></li>
-                <li><i class="devicon-visualstudio-plain"></i><h4>visual studio</h4></li>
+                <!-- <li><i class="devicon-visualstudio-plain"></i><h4>visual studio</h4></li> -->
             </ul>
                 
             </div>
@@ -90,7 +99,45 @@
 
         <section class="projects" id="projects">
             <div class="wrapper">
-            <h2>Projects</h2>
+                <h2>Projects</h2>
+                <div class="projects">
+                    <div class="projectA">
+                        <div class="projectInfo">
+                        <h3>show me the money</h3>
+                        <p>A currency converter application that is built using HTML, CSS, and vanilla JavaScript. It's also integrated with two API's. This paired programming project was created with my partner <a href="">Joey Sea</a></p>
+                        <a href="https://delightful-gingersnap-d0f5d7.netlify.app/"><button>Live</button></a>
+
+                        <a href="https://github.com/karleenAndJoey/showMeTheMoneyApp"><button>Github</button></a>
+                        </div>
+                        <img src="./assets/projectA.png" alt="screenshot of show me the money app project">
+                    </div>
+
+                    <div class="projectB">
+                        <img src="./assets/projectA.png" alt="">
+                        <div class="projectInfo">
+                            <h3>React Project</h3>
+                            <p>A currency converter application that is built using HTML, CSS, and vanilla JavaScript. It's also integrated with
+                                two API's. This paired programming project was created with my partner <a href="">Joey Sea</a></p>
+                            <a href="https://delightful-gingersnap-d0f5d7.netlify.app/"><button>Live</button></a>
+                        
+                            <a href="https://github.com/karleenAndJoey/showMeTheMoneyApp"><button>Github</button></a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="projectC">
+                        <div class="projectInfo">
+                            <h3>Group Project</h3>
+                            <p>A currency converter application that is built using HTML, CSS, and vanilla JavaScript. It's also integrated with
+                                two API's. This paired programming project was created with my partner <a href="">Joey Sea</a></p>
+                            <a href="https://delightful-gingersnap-d0f5d7.netlify.app/"><button>Live</button></a>
+                        
+                            <a href="https://github.com/karleenAndJoey/showMeTheMoneyApp"><button>Github</button></a>
+                        </div>
+                        <img src="./assets/projectA.png" alt="">
+                    </div>
+
+                </div>
             </div>
         </section>
 
