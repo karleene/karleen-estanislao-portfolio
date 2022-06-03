@@ -1,20 +1,78 @@
-// HEADER, ABOUT, AND SKILLS&TOOLS
+// HEADER AND ABOUT
 
 header {
     background-color: $gray;
-    min-height: 80vh;
+    min-height: 100vh;
+}
+
+.burgerMenu {
+    display: none;
+    i {
+        font-size: 1.8rem;
+        color: $white;
+    }
+}
+
+.navigation {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    a {
+        margin: 0 20px;
+    }
+    a:hover,
+    a:focus {
+        color: $peach;
+        cursor: pointer;
+    }
+}
+
+h1 {
+    margin: 200px 0 0;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    i {
+        font-size: 2rem;
+        color: $peach;
+        margin: 0 15px;
+    }
+    i:hover,
+    i:focus {
+        color: $white;
+        cursor: pointer;
+    }
 }
 
 .about {
     background-color: $lightCyan;
+    margin: -1.7rem;
 }
 
-.skills {
-    background-color: $lightBlue;
+.profile {
+    display: flex;
+    padding-bottom: 100px;
+    p {
+        padding: 0 30px;
+        a {
+            font-size: 1.2rem;
+            color: $gray;
+            text-decoration: underline;
+        }
+        a:hover,
+        a:focus {
+            color: $peach;
+            cursor: pointer;
+        }
+    }
 }
 
 img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
+
+

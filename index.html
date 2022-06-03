@@ -16,8 +16,8 @@
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Pacifico&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Nunito&family=Pacifico&display=swap"
+        rel="stylesheet">
 
     <!-- CSS STYLESHEET -->
     <link rel="stylesheet" href="./styles/style.css">
@@ -27,33 +27,43 @@
     <a href="#mainContent" class="skip-link">Skip to main content.</a>
     <header>
         <div class="wrapper">
-        
-        <h1>Karleen Estanislao</h1>
-        <h3>Front-End Web Developer</h3>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+    
+                <div class="burgerMenu" id="burgerMenu">
+                    <i class="fa-solid fa-bars"></i>
+                    <!-- 'fa-xmark' -->
+                </div>
 
-        <nav>
-            <ul class="navigation">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+                <h1>Karleen Estanislao</h1>
+                <h3>Front-End Web Developer</h3>
 
-            <div class="burgerMenu" id="burgerMenu">
-                <i class="fa-solid fa-bars"></i>
-                <!-- 'fa-xmark' -->
-            </div>
-        </nav>
+                <div class="socials">
+                    <ul class="socialIcons">
+                        <li><a href="https://www.linkedin.com/in/karleen-estanislao-91b159237/"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/karleene"><i class="fa-brands fa-github-square"></i></a></li>
+                        <li><a href="https://twitter.com/karleendev"><i class="fa-brands fa-twitter-square"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </header>
 
-    <main>
+    <main id="mainContent">
         <section class="about" id="about">
             <div class="wrapper">
-            <h2>About</h2>
-            <img src="./assets/karleene.jpg" alt="profile headshot">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam neque quae repellendus, hic rem accusantium nulla odio soluta tenetur dicta repellat amet fugit voluptatem ducimus, debitis, minima unde nam labore.</p>
+                <h2>About</h2>
+
+                <div class="profile">
+                    <img src="./assets/karleene.jpg" alt="profile headshot">
+                    <p>Hello! I'm Karleen, a pharmacy assistant turned front-end web developer based in Winnipeg, Manitoba. I recently graduated from Juno College of Technology (cohort 41). I also graduated from University of Winnipeg with a bachelor's degree in Business Administration. In my spare time, I'm usually on discord with my friends hanging out. I also play Valorant with them, I'm not good, but you can check out some of my clips <a href="https://www.instagram.com/skinzke/">here</a>.</p>
+                </div>
             </div>
         </section>
 
@@ -69,7 +79,6 @@
                 <li><i class="devicon-firebase-plain"></i><h4>firebase</h4></li>
                 <li><i class="fa-brands fa-git-alt"></i><h4>git</h4></li>
                 <li><i class="fa-brands fa-github-square"></i><h4>github</h4></li>
-                <li><i class="fa-solid fa-terminal"></i><h4>terminal</h4></li>
                 <li><i class="fa-solid fa-laptop-mobile"></i><h4>responsive design</h4></li>
                 <li><i class="fa-solid fa-universal-access"></i><h4>accessibility</h4></li>
                 <li><i class="fa-solid fa-arrows-left-right"></i></i><h4>rest apis</h4></li>

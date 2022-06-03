@@ -237,25 +237,35 @@ html {
 
 h1 {
   font-family: "Pacifico", cursive;
-  font-size: 4rem;
-  color: #ebebf1;
+  font-size: 5rem;
+  color: #EEAF98;
+  text-align: center;
 }
 
 h2 {
   font-family: "Pacifico", cursive;
   font-size: 2rem;
-  color: #424B6D;
+  color: #EEAF98;
+  padding: 20px 0;
+}
+
+h2:hover,
+h2:focus {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #EEAF98;
+          text-decoration-color: #EEAF98;
+  text-decoration-thickness: 8px;
 }
 
 h3 {
   font-family: "Nunito", sans-serif;
-  font-style: italic;
   font-size: 1.5rem;
   color: #ebebf1;
+  text-align: center;
 }
 
 h4 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Gloria Hallelujah", cursive;
   text-transform: uppercase;
   font-size: 0.8rem;
   color: #424B6D;
@@ -281,7 +291,7 @@ p {
 
 html {
   font-size: 125%;
-  margin-top: -2.7rem;
+  margin-top: -1rem;
 }
 
 .wrapper {
@@ -315,21 +325,91 @@ img {
 
 header {
   background-color: #424B6D;
-  min-height: 80vh;
+  min-height: 100vh;
+}
+
+.burgerMenu {
+  display: none;
+}
+.burgerMenu i {
+  font-size: 1.8rem;
+  color: #ebebf1;
+}
+
+.navigation {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.navigation a {
+  margin: 0 20px;
+}
+.navigation a:hover,
+.navigation a:focus {
+  color: #EEAF98;
+  cursor: pointer;
+}
+
+h1 {
+  margin: 200px 0 0;
+}
+
+.socialIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.socialIcons i {
+  font-size: 2rem;
+  color: #EEAF98;
+  margin: 0 15px;
+}
+.socialIcons i:hover,
+.socialIcons i:focus {
+  color: #ebebf1;
+  cursor: pointer;
 }
 
 .about {
   background-color: #E0FFFF;
+  margin: -1.7rem;
 }
 
-.skills {
-  background-color: #7eabff;
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 100px;
+}
+.profile p {
+  padding: 0 30px;
+}
+.profile p a {
+  font-size: 1.2rem;
+  color: #424B6D;
+  text-decoration: underline;
+}
+.profile p a:hover,
+.profile p a:focus {
+  color: #EEAF98;
+  cursor: pointer;
 }
 
 img {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
+}
+
+.skills {
+  background-color: #5169BD;
 }
 
 .projects {

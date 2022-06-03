@@ -1,24 +1,33 @@
 h1 {
     font-family: $headingFont;
-    font-size: 4rem;
-    color: $white;
+    font-size: 5rem;
+    color: $peach;
+    text-align: center;
 }
 
 h2 {
     font-family: $headingFont;
     font-size: 2rem;
-    color: $gray;
+    color: $peach;
+    padding: 20px 0;
+}
+
+h2:hover,
+h2:focus {
+    text-decoration: underline;
+    text-decoration-color: $peach;
+    text-decoration-thickness: 8px;
 }
 
 h3{
     font-family: $bodyFont;
-    font-style: italic;
     font-size: 1.5rem;
     color: $white;
+    text-align: center;
 }
 
 h4 {
-    font-family: $bodyFont;
+    font-family: $skillsFont;
     text-transform: uppercase;
     font-size: 0.8rem;
     color: $gray;
