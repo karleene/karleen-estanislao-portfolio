@@ -1,0 +1,33 @@
+html {
+    font-size: 125%;
+    margin-top: -2.7rem;
+}
+
+.wrapper {
+    width: 85%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.skip-link {
+    position: absolute;
+    left: -1000px;
+    top: 5px;
+    z-index: 999;
+    background: white;
+    color: black;
+}
+
+.skip-link:focus {
+    left: 0;
+}
