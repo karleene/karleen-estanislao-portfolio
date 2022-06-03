@@ -254,6 +254,18 @@ h3 {
   color: #ebebf1;
 }
 
+h4 {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #424B6D;
+}
+
+i {
+  font-size: 3rem;
+  color: #424B6D;
+}
+
 a {
   text-decoration: none;
   font-family: "Nunito", sans-serif;
