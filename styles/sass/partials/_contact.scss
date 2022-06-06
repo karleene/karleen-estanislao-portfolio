@@ -3,7 +3,47 @@
 .contact {
     background-color: $darkBlue;
     margin: -1.7rem 0;
+    padding-bottom: 50px;
+    p {
+        text-align: center;
+        color: $white;
+    }
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    width: 75%;
+    margin: 15px 0;
+    background-color: $white;
+}
+
+input {
+    padding: 15px;
+}
+
+textarea {
+    padding: 15px 0 150px 15px;
+}
+
+button {
+    background-color: $peach;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    color: $gray;
+}
+
+button:hover,
+button:focus {
+    color: $white;
+    cursor: pointer;
+    }
+
 
 footer {
     background-color: $gray;

@@ -328,24 +328,6 @@ header {
   min-height: 100vh;
 }
 
-.burgerMenu {
-  display: none;
-  list-style: none;
-  position: absolute;
-  left: -50px;
-}
-.burgerMenu i {
-  font-size: 1.8rem;
-  color: #ebebf1;
-}
-
-.none {
-  display: none;
-}
-
-nav {
-  position: relative;
-}
 nav h3 {
   font-size: 1.5rem;
   color: #ebebf1;
@@ -353,20 +335,12 @@ nav h3 {
 }
 
 .navigation {
-  list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding-top: 20px;
 }
 .navigation a {
@@ -534,6 +508,52 @@ img {
 .contact {
   background-color: #5169BD;
   margin: -1.7rem 0;
+  padding-bottom: 50px;
+}
+.contact p {
+  text-align: center;
+  color: #ebebf1;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+input, textarea {
+  width: 75%;
+  margin: 15px 0;
+  background-color: #ebebf1;
+}
+
+input {
+  padding: 15px;
+}
+
+textarea {
+  padding: 15px 0 150px 15px;
+}
+
+button {
+  background-color: #EEAF98;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  color: #424B6D;
+}
+
+button:hover,
+button:focus {
+  color: #ebebf1;
+  cursor: pointer;
 }
 
 footer {

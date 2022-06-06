@@ -5,23 +5,7 @@ header {
     min-height: 100vh;
 }
 
-.burgerMenu {
-    display: none;
-    list-style: none;
-    position: absolute;
-    left: -50px;
-    i {
-        font-size: 1.8rem;
-        color: $white;
-    }
-}
-
-.none {
-    display: none;
-}
-
 nav {
-    position: relative;
     h3 {
         font-size: 1.5rem;
         color: $white;
@@ -30,11 +14,8 @@ nav {
 }
 
 .navigation {
-    list-style-type: none;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
     padding-top: 20px;
     a {
         margin: 0 20px;
