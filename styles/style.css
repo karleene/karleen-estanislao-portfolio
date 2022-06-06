@@ -289,6 +289,11 @@ p {
   font-size: 1.2rem;
 }
 
+button {
+  font-family: "Nunito", sans-serif;
+  background-color: #EEAF98;
+}
+
 html {
   font-size: 125%;
   margin-top: -1rem;
@@ -341,7 +346,7 @@ nav h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 20px;
+  padding-top: 25px;
 }
 .navigation a {
   margin: 0 20px;
@@ -471,12 +476,12 @@ img {
   cursor: pointer;
 }
 .projectInfo button {
-  font-family: "Nunito", sans-serif;
-  background-color: #EEAF98;
   color: #424B6D;
   border-radius: 5px;
   width: 100px;
   height: 40px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 .projectInfo button:hover,
 .projectInfo button:focus {
@@ -536,22 +541,27 @@ input, textarea {
 
 input {
   padding: 15px;
+  border: none;
+  border-radius: 5px;
 }
 
 textarea {
   padding: 15px 0 150px 15px;
+  border: none;
+  border-radius: 5px;
 }
 
-button {
-  background-color: #EEAF98;
+.message button {
   padding: 10px 30px;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   color: #424B6D;
+  font-size: 1.2rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
-
-button:hover,
-button:focus {
+.message button:hover,
+.message button:focus {
   color: #ebebf1;
   cursor: pointer;
 }

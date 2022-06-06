@@ -24,26 +24,31 @@ input, textarea {
 
 input {
     padding: 15px;
+    border: none;
+    border-radius: 5px;
 }
 
 textarea {
     padding: 15px 0 150px 15px;
-}
-
-button {
-    background-color: $peach;
-    padding: 10px 30px;
     border: none;
-    border-radius: 10px;
-    color: $gray;
+    border-radius: 5px;
 }
 
-button:hover,
-button:focus {
-    color: $white;
-    cursor: pointer;
+.message {
+    button {
+        padding: 10px 30px;
+        border: none;
+        border-radius: 5px;
+        color: $gray;
+        font-size: 1.2rem;
+        transition: 0.3s;
     }
-
+    button:hover,
+    button:focus {
+        color: $white;
+        cursor: pointer;
+    }
+}
 
 footer {
     background-color: $gray;
