@@ -46,6 +46,27 @@
         }
     }
 
+    .profile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projectA,
+    .projectB,
+    .projectC,
+    .projectD {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projectInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        button {
+            margin: 10px;
+        }
+    }
 }
 
 /* Landscape phones and down */
