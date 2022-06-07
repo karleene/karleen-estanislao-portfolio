@@ -486,6 +486,7 @@ img {
   height: 40px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  margin: 10px;
 }
 .projectInfo button:hover,
 .projectInfo button:focus {
@@ -633,6 +634,9 @@ footer p {
         -ms-flex-align: center;
             align-items: center;
   }
+  .profile p {
+    text-align: center;
+  }
 
   .projects img {
     width: 300px;
@@ -663,9 +667,6 @@ footer p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-  }
-  .projectInfo button {
-    margin: 10px;
   }
 }
 /* Landscape phones and down */
