@@ -339,6 +339,33 @@ nav h3 {
   text-align: center;
 }
 
+.waviy {
+  position: relative;
+}
+
+.waviy span {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  -webkit-animation: flip 2s infinite;
+          animation: flip 2s infinite;
+  -webkit-animation-delay: calc(0.2s * var(--i));
+          animation-delay: calc(0.2s * var(--i));
+}
+
+@-webkit-keyframes flip {
+  0%, 80% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+@keyframes flip {
+  0%, 80% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
 .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
