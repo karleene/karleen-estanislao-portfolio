@@ -57,7 +57,9 @@ h1 {
     display: flex;
     padding-bottom: 100px;
     p {
-        padding: 0 30px;
+        margin: 0;
+        padding: 0 40px;
+        text-align: justify;
         a {
             font-size: 1.2rem;
             color: $gray;

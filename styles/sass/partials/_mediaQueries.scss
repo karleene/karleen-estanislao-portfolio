@@ -57,7 +57,7 @@
         flex-direction: column;
         align-items: center;
         p {
-            text-align: center;
+            margin-top: 40px;
         }
     }
 
@@ -86,8 +86,39 @@
 /* Landscape phones and down */
 @media (max-width: 480px) {
     .icons {
-        i {
-            font-size: 2.5rem;
+        flex-direction: column;
+    }
+
+    .profile {
+        p {
+            font-size: 0.8rem;
+            a {
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    .projects {
+        img {
+            width: 200px;
+            height: 140px;
+        }
+    }
+
+    .projectInfo {
+        h3 {
+            font-size: 1rem;
+        }
+        p {
+            font-size: 0.8rem;
+        }
+        a {
+            font-size: 0.8rem;
+        }
+        button {
+            font-size: 0.8rem;
+            width: 70px;
+            height: 30px;
         }
     }
 }

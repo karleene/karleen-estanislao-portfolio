@@ -396,7 +396,9 @@ h1 {
   padding-bottom: 100px;
 }
 .profile p {
-  padding: 0 30px;
+  margin: 0;
+  padding: 0 40px;
+  text-align: justify;
 }
 .profile p a {
   font-size: 1.2rem;
@@ -492,6 +494,9 @@ img {
 .projectInfo button:focus {
   color: #ebebf1;
   cursor: pointer;
+}
+.projectInfo p {
+  text-align: justify;
 }
 
 .projectA, .projectB, .projectC, .projectD {
@@ -635,7 +640,7 @@ footer p {
             align-items: center;
   }
   .profile p {
-    text-align: center;
+    margin-top: 40px;
   }
 
   .projects img {
@@ -671,7 +676,37 @@ footer p {
 }
 /* Landscape phones and down */
 @media (max-width: 480px) {
-  .icons i {
-    font-size: 2.5rem;
+  .icons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .profile p {
+    font-size: 0.8rem;
+  }
+  .profile p a {
+    font-size: 0.8rem;
+  }
+
+  .projects img {
+    width: 200px;
+    height: 140px;
+  }
+
+  .projectInfo h3 {
+    font-size: 1rem;
+  }
+  .projectInfo p {
+    font-size: 0.8rem;
+  }
+  .projectInfo a {
+    font-size: 0.8rem;
+  }
+  .projectInfo button {
+    font-size: 0.8rem;
+    width: 70px;
+    height: 30px;
   }
 }
