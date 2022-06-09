@@ -23,9 +23,10 @@ nav {
     position: relative;
     display: inline-block;
     text-transform: uppercase;
-    animation: flip 2s infinite;
-    animation-delay: calc(.2s * var(--i))
+    animation: flip 1s infinite;
+    animation-delay: calc(0.1s * var(--i))
 }
+// default is 2s and .2s
 
 @keyframes flip {
 
@@ -54,7 +55,7 @@ nav {
 }
 
 h1 {
-    padding: 200px 0 0;
+    padding: 160px 0 0;
 }
 
 .socialIcons {

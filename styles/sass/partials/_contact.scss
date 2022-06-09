@@ -20,18 +20,18 @@ input, textarea {
     width: 75%;
     margin: 15px 0;
     background-color: $white;
+    // border: 5px solid $peach;
+    border: 5px solid rgba(255, 176, 124, 0.5);
+    // border: none;
+    border-radius: 10px;
 }
 
 input {
     padding: 15px;
-    border: none;
-    border-radius: 5px;
 }
 
 textarea {
     padding: 15px 0 150px 15px;
-    border: none;
-    border-radius: 5px;
 }
 
 .message {
