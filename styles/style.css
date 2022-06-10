@@ -328,21 +328,6 @@ img {
   left: 0;
 }
 
-header {
-  background-color: #424B6D;
-  min-height: 100vh;
-}
-
-nav h3 {
-  font-size: 1.5rem;
-  color: #ebebf1;
-  text-align: center;
-}
-
-.burgerMenu {
-  display: none;
-}
-
 .waviy {
   position: relative;
 }
@@ -370,6 +355,21 @@ nav h3 {
             transform: rotateY(360deg);
   }
 }
+header {
+  background-color: #424B6D;
+  min-height: 100vh;
+}
+
+nav h3 {
+  font-size: 1.5rem;
+  color: #ebebf1;
+  text-align: center;
+}
+
+.burgerMenu {
+  display: none;
+}
+
 .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -430,6 +430,7 @@ h1 {
   margin: 0;
   padding: 0 40px;
   text-align: justify;
+  letter-spacing: 2px;
 }
 .profile p a {
   font-size: 1.2rem;

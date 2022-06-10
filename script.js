@@ -10,3 +10,4 @@ burgerMenu.addEventListener('click', function () {
     this.firstElementChild.classList.toggle('fa-bars');
     this.firstElementChild.classList.toggle('fa-xmark');
 })
+

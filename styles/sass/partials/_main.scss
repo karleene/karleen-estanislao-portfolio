@@ -17,32 +17,6 @@ nav {
     display: none;
 }
 
-// ANIMATION
-
-.waviy {
-    position: relative;
-}
-
-.waviy span {
-    position: relative;
-    display: inline-block;
-    text-transform: uppercase;
-    animation: flip 1s infinite;
-    animation-delay: calc(0.1s * var(--i))
-}
-// default is 2s and .2s
-
-@keyframes flip {
-
-    0%,
-    80% {
-        transform: rotateY(360deg)
-    }
-}
-
-// END OF ANIMATION
-
-
 .navigation {
     display: flex;
     justify-content: center;
@@ -90,6 +64,7 @@ h1 {
         margin: 0;
         padding: 0 40px;
         text-align: justify;
+        letter-spacing: 2px;
         a {
             font-size: 1.2rem;
             color: $gray;

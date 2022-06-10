@@ -31,3 +31,30 @@ img {
 .skip-link:focus {
     left: 0;
 }
+
+
+// FRONT-END WEB DEVELOPER ANIMATION CODE (START)
+
+.waviy {
+    position: relative;
+}
+
+.waviy span {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    animation: flip 1s infinite;
+    animation-delay: calc(0.1s * var(--i))
+}
+
+// default is 2s and .2s
+
+@keyframes flip {
+
+    0%,
+    80% {
+        transform: rotateY(360deg)
+    }
+}
+
+// FRONT-END WEB DEVELOPER ANIMATION CODE (END)
