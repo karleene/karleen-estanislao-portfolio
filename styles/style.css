@@ -501,6 +501,9 @@ img {
   height: 250px;
 }
 
+.projectInfo p {
+  line-height: 35px;
+}
 .projectInfo a {
   font-size: 1.2rem;
   color: #424B6D;
