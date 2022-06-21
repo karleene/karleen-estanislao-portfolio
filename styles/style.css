@@ -723,6 +723,9 @@ footer p {
         -ms-flex-align: center;
             align-items: center;
   }
+  .projectInfo p {
+    text-align: center;
+  }
 }
 /* Landscape phones and down */
 @media (max-width: 480px) {
