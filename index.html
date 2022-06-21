@@ -23,6 +23,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="./assets/favicon_io/site.webmanifest">
 
+    <!-- AOS -->
+    <!-- credit: https://github.com/michalsnik/aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- CSS STYLESHEET -->
     <link rel="stylesheet" href="./styles/style.css">
 </head>
@@ -64,8 +68,8 @@
                 <h2>About</h2>
 
                 <div class="profile">
-                    <img src="./assets/karleene.jpg" alt="profile headshot">
-                    <p>Hello! I'm Karleen, a pharmacy assistant turned front-end web developer based in Winnipeg, Manitoba. I recently graduated from Juno College of Technology (cohort 41). I also graduated from University of Winnipeg with a bachelor's degree in Business Administration. 
+                    <img src="./assets/karleene.jpg" alt="profile headshot" data-aos="slide-down" data-aos-easing="ease">
+                    <p data-aos="slide-up" data-aos-easing="ease">Hello! I'm Karleen, a pharmacy assistant turned front-end web developer based in Winnipeg, Manitoba. I recently graduated from Juno College of Technology (cohort 41). I also graduated from University of Winnipeg with a bachelor's degree in Business Administration. 
                     <br><br>
                     In my spare time, I'm usually on discord with my friends, hanging out or playing Valorant. I'm not good at the game, but you can check out some of my clips <a href="https://www.instagram.com/skinzke/">here</a>. I also like to travel, but haven't been able to the past couple of years. Some countries I've been to are Iceland, Ireland, Mexico, Philippines, and Thailand.</p>
                 </div>
@@ -75,7 +79,7 @@
         <section class="skills" id="skills">
             <div class="wrapper">
                 <h2>Skills and Tools</h2>
-                <ul class="icons">
+                <ul class="icons" data-aos="zoom-out" data-aos-easing="ease-in">
                     <li><i class="fa-brands fa-html5"></i><h4>html5</h4></li>
                     <li><i class="fa-brands fa-css3-alt"></i><h4>css3</h4></li>
                     <li><i class="fa-brands fa-sass"></i><h4>sass</h4></li>
@@ -98,7 +102,7 @@
             <div class="wrapper">
                 <h2>Projects</h2>
                 <div class="projects">
-                    <div class="projectA">
+                    <div class="projectA" data-aos="fade-right" data-aos-easing="ease-in">
                         <img src="./assets/projectA.png" alt="screenshot of show me the money app project">
                         <div class="projectInfo">
                         <h3>Show me the money</h3>
@@ -110,7 +114,7 @@
                         </div>
                     </div>
 
-                    <div class="projectB">
+                    <div class="projectB" data-aos="fade-left" data-aos-easing="ease-in">
                         <img src="./assets/projectB.png" alt="screenshot of project/website named delicious">
                         <div class="projectInfo">
                             <h3>Delicious</h3>
@@ -122,7 +126,7 @@
                         </div>   
                     </div>
 
-                    <div class="projectC">
+                    <div class="projectC" data-aos="fade-right" data-aos-easing="ease-in">
                         <img src="./assets/projectC.png" alt="screenshot of note-it-app project">
                         <div class="projectInfo">
                             <h3>Note-it</h3>
@@ -135,7 +139,7 @@
                     </div>
 
                     <!--
-                    <div class="projectD">
+                    <div class="projectD" data-aos="fade-left" data-aos-easing="ease-in">
                         <img src="./assets/projectB.png" alt="">
                         <div class="projectInfo">
                             <h3>Group Project</h3>
@@ -192,5 +196,9 @@
     </footer>
     
     <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

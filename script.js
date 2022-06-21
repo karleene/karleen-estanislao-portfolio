@@ -1,3 +1,4 @@
+
 // HAMBURGER MENU
 
 const burgerMenu = document.querySelector('#burgerMenu');
