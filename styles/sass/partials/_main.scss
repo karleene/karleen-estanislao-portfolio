@@ -5,13 +5,38 @@ header {
     min-height: 100vh;
 }
 
+
+// FRONT-END DEVELOPER ANIMATION (START)
+// credit: https: //codepen.io/denic/pen/GRoOxbM
 nav {
+    display: flex;
+    flex-direction: column;
     h3 {
-        font-size: 1.5rem;
+        margin-top: -1rem;
+        align-self: center;
+        font-size: 1.7rem;
         color: $white;
         text-align: center;
+        width: 22ch;
+        animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 4px solid;
     }
 }
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+// FRONT-END DEVELOPER ANIMATION (END)
 
 .burgerMenu {
     display: none;
@@ -33,7 +58,7 @@ nav {
 }
 
 h1 {
-    padding: 250px 0 0;
+    padding: 200px 0 0;
 }
 
 .socialIcons {
