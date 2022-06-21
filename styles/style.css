@@ -514,7 +514,8 @@ img {
 }
 
 .projectInfo p {
-  line-height: 35px;
+  line-height: 40px;
+  letter-spacing: 2px;
 }
 .projectInfo a {
   font-size: 1.2rem;
