@@ -631,7 +631,7 @@ footer p {
     padding: 200x 0 0;
   }
   header h3 {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   header a {
     font-size: 1.2rem;
@@ -731,6 +731,9 @@ footer p {
 @media (max-width: 480px) {
   header h1 {
     padding: 250px 0 0;
+  }
+  header h3 {
+    font-size: 1.2rem;
   }
 
   .icons {
