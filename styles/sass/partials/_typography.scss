@@ -12,13 +12,6 @@ h2 {
     padding: 50px 0;
 }
 
-h2:hover,
-h2:focus {
-    text-decoration: underline;
-    text-decoration-color: $peach;
-    text-decoration-thickness: 8px;
-}
-
 h3{
     font-family: $bodyFont;
     font-size: 1.2rem;

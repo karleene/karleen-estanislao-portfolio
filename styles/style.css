@@ -249,14 +249,6 @@ h2 {
   padding: 50px 0;
 }
 
-h2:hover,
-h2:focus {
-  text-decoration: underline;
-  -webkit-text-decoration-color: #EEAF98;
-          text-decoration-color: #EEAF98;
-  text-decoration-thickness: 8px;
-}
-
 h3 {
   font-family: "Nunito", sans-serif;
   font-size: 1.2rem;
@@ -548,7 +540,7 @@ img {
   text-align: justify;
 }
 
-.projectA, .projectB, .projectC, .projectD {
+.projectA, .projectB, .projectC, .projectD, .projectE {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -642,14 +634,12 @@ footer p {
   html {
     margin-top: -2rem;
   }
-
   header h1 {
     padding: 300px 0 0;
   }
   header nav {
     padding-top: 50px;
   }
-
   .burgerMenu {
     display: block;
     position: absolute;
@@ -664,7 +654,6 @@ footer p {
     color: #EEAF98;
     cursor: pointer;
   }
-
   .navigation {
     position: absolute;
     -webkit-box-orient: vertical;
@@ -679,7 +668,6 @@ footer p {
   .navigation.active {
     left: 0;
   }
-
   .profile {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -692,12 +680,10 @@ footer p {
   .profile p {
     margin-top: 40px;
   }
-
   .projects img {
     width: 300px;
     height: 200px;
   }
-
   .projectA,
 .projectB,
 .projectC,
@@ -710,7 +696,6 @@ footer p {
         -ms-flex-align: center;
             align-items: center;
   }
-
   .projectInfo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -735,7 +720,6 @@ footer p {
   header h3 {
     font-size: 1.2rem;
   }
-
   .icons {
     margin-left: -1.2rem;
     -webkit-box-orient: vertical;
@@ -743,7 +727,6 @@ footer p {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-
   .profile p {
     font-size: 0.8rem;
     text-align: center;
@@ -752,12 +735,10 @@ footer p {
   .profile p a {
     font-size: 0.8rem;
   }
-
   .projects img {
     width: 200px;
     height: 140px;
   }
-
   .projectInfo h3 {
     font-size: 1rem;
   }
@@ -773,7 +754,6 @@ footer p {
     width: 70px;
     height: 30px;
   }
-
   .contact h2 {
     margin-bottom: -1rem;
   }
