@@ -449,10 +449,10 @@ h1 {
   color: #EEAF98;
   cursor: pointer;
 }
-
-img {
+.profile img {
   max-width: 30%;
   border-radius: 50px;
+  height: 50%;
 }
 
 .skills {
@@ -628,7 +628,7 @@ footer p {
   header a {
     font-size: 1.2rem;
   }
-  img {
+  .profile img {
     height: 50%;
   }
   .projects img {
@@ -742,6 +742,11 @@ footer p {
   }
   .profile p a {
     font-size: 0.8rem;
+  }
+  .profile img {
+    margin-top: -40px;
+    border-radius: 35px;
+    max-width: 40%;
   }
   .projects img {
     width: 200px;

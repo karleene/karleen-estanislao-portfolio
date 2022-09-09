@@ -13,10 +13,12 @@
             font-size: 1.2rem;
         }
     }
-
-    img {
-        height: 50%;
+    .profile {
+        img {
+            height: 50%;
+        }
     }
+        
 
     .projects {
         img {
@@ -129,6 +131,11 @@
             a {
                 font-size: 0.8rem;
             }
+        }
+        img {
+            margin-top: -40px;
+            border-radius: 35px;
+            max-width: 40%;
         }
     }
 

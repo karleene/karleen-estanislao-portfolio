@@ -103,10 +103,12 @@ h1 {
             cursor: pointer;
         }
     }
+    img {
+        max-width: 30%;
+        border-radius: 50px;
+        height: 50%;
+    }
 }
 
-img {
-    max-width: 30%;
-    border-radius: 50px;
-}
+
 
