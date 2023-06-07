@@ -635,10 +635,10 @@ footer p {
     height: auto;
   }
   .projectA,
-.projectB,
-.projectC,
-.projectD,
-.projectE {
+  .projectB,
+  .projectC,
+  .projectD,
+  .projectE {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -684,7 +684,7 @@ footer p {
     color: #ebebf1;
   }
   .burgerMenu i:hover,
-.burgerMenu i:focus {
+  .burgerMenu i:focus {
     color: #EEAF98;
     cursor: pointer;
   }
